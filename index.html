@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+<h2>Abastece ai</h2>
+    <input id="etanol" placeholder="Preço Etanol" type="number" step="0,01" min="0">
+    <input id="gasolina" placeholder="Preço Gasolina" type="number" step="0,01" min="0">
+    <button onclick="calcular()">Calcular</button>
+
+    <script src="script.js"></script>
+
+
+    
+</body>
+</html>
+
+
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: rgb(195, 141, 247);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        input {
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 200px;
+        }
+        
+
+        button {
+            padding: 10px 20px;
+            background-color: #3661f1;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #3661f1;
+        }
+    </style>
+</head>
+<body>
